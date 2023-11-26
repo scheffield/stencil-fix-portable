@@ -25,7 +25,7 @@ class LowPass {
 };
 
 // How many internal neopixels do we have? some boards have more than one!
-#define NUMPIXELS        1
+#define NUMPIXELS 1
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
 
 Servo servo;
@@ -33,7 +33,6 @@ Servo servo;
 // low pass filter with an RC time constant of 40us
 LowPass lowPass(40);
 
-// the setup routine runs once when you press reset:
 void setup() {
   Serial.begin(115200);
 
@@ -53,16 +52,12 @@ void setup() {
 
   servo.attach(A3, 1100, 1900);
   servo.writeMicroseconds(1500);
-  // delay(200);
-  // servo.writeMicroseconds(900);
 }
 
-// the loop routine runs over and over again forever:
 void loop() {
   int pot = analogRead(A2);
 
   // map pot to an HSV value that is between 240 deg and 360 deg of the color wheel.
-  // keep fill if not changing color but brightness as needed to go from brightness 0/off to on again.
   pixels.fill(pixels.ColorHSV(map(pot, 0, 4095, (pow(2, 16) - 1) * 240/360, pow(2, 16) - 1), 255, 255));
   pixels.show();
 
