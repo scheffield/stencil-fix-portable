@@ -31,3 +31,6 @@ View when soldering (flipped from the top view)
 | Screw terminal 2.54mm pitch | 1 | |
 | [Mini Female Spade - Blue](https://www.jaycar.com.au/mini-female-spade-blue-pack-of-8/p/PT4622) | 2 | Connect to the rocker switch |
 | [10kΩ Potentiometer B10K](https://www.amazon.com.au/dp/B07XXWWXMC) | 1 | |
+
+## Attribution
+The impeller is generated with code from tytouf's [Centrifugal Impleller](https://www.thingiverse.com/thing:259773).
