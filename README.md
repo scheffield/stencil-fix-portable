@@ -4,7 +4,11 @@
 
 ## Stencil size
 
-Use a **150 × 150 mm frameless stencil** with this setup. When ordering from JLCPCB, choose **Framework: No** and enable **Custom size** with both dimensions set to **150 mm**.
+Use a **150 × 150 mm frameless stencil** with this setup. When ordering from JLCPCB, choose **Framework: No**. Under **Dimensions**, select **Custom Size** and set both **X** and **Y** to **150 mm**.
+
+![JLCPCB ordering form with Custom Size selected and X and Y both set to 150 mm](images/jlcpcb-stencil-dimensions.png)
+
+Choose stencil side and thickness to suit your PCB.
 
 The following settings were confirmed in past JLCPCB stencil orders from 24 April and 16 May 2026:
 
@@ -15,10 +19,6 @@ The following settings were confirmed in past JLCPCB stencil orders from 24 Apri
 | Custom size | **150 × 150 mm** (finished stencil size) |
 
 The order details show both sizes. The **Custom size** value is the one to use for this holder. See [JLCPCB's stencil ordering guide](https://jlcpcb.com/help/article/how-to-order-a-stencil) for its custom-size options.
-
-![JLCPCB stencil order details showing Framework: No, Dimension: 380 × 280 mm, and Custom size: 150 × 150 mm](images/jlcpcb-stencil-dimensions.png)
-
-The screenshot is cropped from the 16 May 2026 order's stencil specifications. Stencil side and thickness depend on your PCB; the screenshot shows one example order.
 
 To find these details in JLCPCB, open **Order History**, filter **Order Type** to **Stencil**, expand the order with **Show All** if needed, and select **Product Details** under **SMT Stencil**.
 
