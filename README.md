@@ -8,6 +8,14 @@ Perfboard top view
 View when soldering (flipped from the top view)
 ![Soldering view](images/bottom_soldering.JPG)
 
+## Stencil size
+
+Use a **150 × 150 mm frameless stencil** with this setup. When ordering from JLCPCB, choose **Framework: No**. Under **Dimensions**, select **Custom Size** and set both **X** and **Y** to **150 mm**.
+
+![JLCPCB ordering form with Custom Size selected and X and Y both set to 150 mm](images/jlcpcb-stencil-dimensions.png)
+
+Choose stencil side and thickness to suit your PCB.
+
 ## BOM
 | Part | Amount | Comment |
 |---|---|---|
