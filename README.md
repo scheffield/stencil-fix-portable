@@ -40,5 +40,17 @@ Choose stencil side and thickness to suit your PCB.
 | [Mini Female Spade - Blue](https://www.jaycar.com.au/mini-female-spade-blue-pack-of-8/p/PT4622) | 2 | Connect to the rocker switch |
 | [10kΩ Potentiometer B10K](https://www.amazon.com.au/dp/B07XXWWXMC) | 1 | |
 
+## Double-sided PCBs
+
+A board with components on the underside needs a holder made for that board. The supplied `pcb_holder` does not include clearance for underside components, and vacuum alone does not establish stencil alignment.
+
+1. Stencil, populate and reflow the first side before placing it face down in the holder for the second side. Do not rest wet solder paste on the holder.
+2. Open [the Fusion design](cad/stencil_fix_portable.f3d) or [the STEP assembly](cad/stencil_fix_portable.step), and make a copy of `pcb_holder` for your board. Import the populated board model in its second-side printing orientation. Check component heights against the assembled board.
+3. Add pockets for underside components and solder joints, with clearance based on your printer and assembly tolerances. Keep support under bare PCB areas and around the board edge so squeegee pressure cannot bend the board or load components. Use local pocket offsets; scaling the entire board model also moves component positions and locating features.
+4. Keep the exposed PCB surface level with the surrounding stencil support. Preserve the holder's fit in the lifter and the vacuum paths through the lid. If the pockets need more depth than the holder provides, redesign the holder and lifter heights together and check the full lift travel, spring compression and screw engagement.
+5. Align the second-side stencil to that side's pads or fiducials. With no paste, check that the board sits flat, stays located under squeegee pressure, and releases without catching components. Inspect a trial print under magnification before printing a batch.
+
+This is a customization procedure, not a tested double-sided holder. Fine-pitch results, including 0402 parts, need validation with your PCB, stencil and printed fixture.
+
 ## Attribution
 The impeller is generated with code from tytouf's [Centrifugal Impleller](https://www.thingiverse.com/thing:259773).
