@@ -30,7 +30,7 @@ Choose stencil side and thickness to suit your PCB.
 | Perf board 80*20mm | 1 | |
 | [QT Py RP2040](https://www.adafruit.com/product/4900) | 1 | |
 | [Buck Converter board](https://www.adafruit.com/product/4739) | 1 | |
-| [Drone Motor](https://www.phaserfpv.com.au/products/emax-eco-ii-series-2807-motor?variant=37115789213867) | 1 | lower kv == better |
+| [Drone Motor](https://www.phaserfpv.com.au/products/emax-eco-ii-series-2807-motor?variant=37115789213867) | 1 | lower kv == better. [Removable mount prototype](cad/motor_mount/README.md). |
 | [Singe ESC](https://www.phaserfpv.com.au/products/aikonak3235a3-6s32bitdshot1200esc) | 1 | Should work with 3 cell LiPo |
 | [3 cell LiPo](https://hobbiesdirect.com.au/nVision-11.1v-2200mAh-30C-LiPo-Battery-NVO1810) | 1 | |
 | Amass XT60 Connector | 1 | Connecting battery to rocker switch |
