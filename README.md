@@ -16,6 +16,10 @@ Use a **150 × 150 mm frameless stencil** with this setup. When ordering from JL
 
 Choose stencil side and thickness to suit your PCB.
 
+## Lid alignment
+
+The corrected [lid STL](stl/lid.stl) and [STEP assembly](cad/stencil_fix_portable.step) use a 138 × 138 mm guide pattern matching the lifter and top. See [dimensions, checks and the pending Fusion source update](cad/lid-alignment.md) before printing or editing the model.
+
 ## BOM
 | Part | Amount | Comment |
 |---|---|---|
