@@ -24,7 +24,7 @@ Choose stencil side and thickness to suit your PCB.
 | M3*20 socket head screw | 8 | 4 holding top, 4 in lifter |
 | M3*12 socket head screw | 4 | Holding motor |
 | M2*4 socket head screw | 4 | holding perf board |
-| [Spring 9.52\*15.8](https://www.ebay.com.au/itm/155259928566) (US: [3/8"\*3/4"](https://www.harborfreight.com/200-piece-assorted-spring-set-67562.html)) | 4 | 
+| [Spring 9.52\*19 mm](https://www.ebay.com.au/itm/155259928566) (US: [3/8"\*3/4"](https://www.harborfreight.com/200-piece-assorted-spring-set-67562.html)) | 4 | Slightly shorter springs may work if stretched a little. |
 | 18AWG Wire | 1 | wiring switch, battery and ESC |
 | 22AWG Wire | 1 | wiring perf board |
 | Perf board 80*20mm | 1 | |
