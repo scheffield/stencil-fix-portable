@@ -41,11 +41,5 @@ Choose stencil side and thickness to suit your PCB.
 | [Mini Female Spade - Blue](https://www.jaycar.com.au/mini-female-spade-blue-pack-of-8/p/PT4622) | 2 | Connect to the rocker switch |
 | [10kΩ Potentiometer B10K](https://www.amazon.com.au/dp/B07XXWWXMC) | 1 | |
 
-## Rocker switch
-
-The original black, three-terminal switch is assumed to be a **KCD1-102**, a non-illuminated, maintained SPDT (ON–ON) rocker. For ON/OFF operation, connect the common terminal and one switched terminal; leave the third unused.
-
-The base opening is **19 × 13 mm in a 2 mm wall**. The linked example has 4.8 mm spade terminals. Confirm the selected variant's panel fit and DC rating for the 3-cell LiPo/ESC load; the example lists only AC ratings.
-
 ## Attribution
 The impeller is generated with code from tytouf's [Centrifugal Impleller](https://www.thingiverse.com/thing:259773).
