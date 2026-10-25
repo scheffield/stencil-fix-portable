@@ -41,6 +41,7 @@ Choose stencil side and thickness to suit your PCB.
 | [Drone Motor](https://www.phaserfpv.com.au/products/emax-eco-ii-series-2807-motor?variant=37115789213867) | 1 | lower kv == better |
 | [Singe ESC](https://www.phaserfpv.com.au/products/aikonak3235a3-6s32bitdshot1200esc) | 1 | Should work with 3 cell LiPo |
 | [3 cell LiPo](https://hobbiesdirect.com.au/nVision-11.1v-2200mAh-30C-LiPo-Battery-NVO1810) | 1 | |
+| [KCD1-102 rocker switch](https://www.finglai.com/products/switches/rocker-switches/KCD1-19x13/KCD1-102-UB.html) | 1 | Black, three-terminal SPDT, used as ON/OFF. See [wiring and fit](#rocker-switch). |
 | Amass XT60 Connector | 1 | Connecting battery to rocker switch |
 | 2.54mm Single Row Male Header | 1 | Get a assortment like [this](https://www.amazon.com.au/dp/B01GY36RJY) |
 | 2.54mm Pitch Single Row Right Angle | 1 | |
