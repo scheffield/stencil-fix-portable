@@ -33,7 +33,7 @@ Choose stencil side and thickness to suit your PCB.
 | [Drone Motor](https://www.phaserfpv.com.au/products/emax-eco-ii-series-2807-motor?variant=37115789213867) | 1 | lower kv == better |
 | [Singe ESC](https://www.phaserfpv.com.au/products/aikonak3235a3-6s32bitdshot1200esc) | 1 | Should work with 3 cell LiPo |
 | [3 cell LiPo](https://hobbiesdirect.com.au/nVision-11.1v-2200mAh-30C-LiPo-Battery-NVO1810) | 1 | |
-| Panel-mount ON/OFF rocker switch | 1 | Base opening: 19 × 13 mm in a 2 mm wall. See [switch selection](#rocker-switch). |
+| [KCD1-102 rocker switch](https://www.finglai.com/products/switches/rocker-switches/KCD1-19x13/KCD1-102-UB.html) | 1 | Black, three-terminal SPDT, used as ON/OFF. See [wiring and fit](#rocker-switch). |
 | Amass XT60 Connector | 1 | Connecting battery to rocker switch |
 | 2.54mm Single Row Male Header | 1 | Get a assortment like [this](https://www.amazon.com.au/dp/B01GY36RJY) |
 | 2.54mm Pitch Single Row Right Angle | 1 | |
@@ -43,11 +43,9 @@ Choose stencil side and thickness to suit your PCB.
 
 ## Rocker switch
 
-The base has a **19 × 13 mm rectangular opening in a 2 mm wall**, next to the potentiometer. These are the CAD opening dimensions; check the switch manufacturer's panel-cutout drawing and permitted panel thickness before ordering. Allow room inside the base for the terminals and wire bends, and match the female spade connectors to the selected switch's terminal width.
+The original black, three-terminal switch is assumed to be a **KCD1-102**, a non-illuminated, maintained SPDT (ON–ON) rocker. For ON/OFF operation, connect the common terminal and one switched terminal; leave the third unused.
 
-Use a maintained ON/OFF switch for the battery supply, with a DC switching rating suitable for the full battery voltage and the motor/ESC load, including startup. A non-illuminated two-terminal SPST switch provides this function. Do not infer a DC switching rating from an AC-only rating.
-
-The original switch's manufacturer and part number have not yet been identified. A confirmed purchase link, electrical rating and fit check are still needed before a specific replacement can be listed.
+The base opening is **19 × 13 mm in a 2 mm wall**. The linked example has 4.8 mm spade terminals. Confirm the selected variant's panel fit and DC rating for the 3-cell LiPo/ESC load; the example lists only AC ratings.
 
 ## Attribution
 The impeller is generated with code from tytouf's [Centrifugal Impleller](https://www.thingiverse.com/thing:259773).
