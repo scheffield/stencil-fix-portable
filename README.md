@@ -8,6 +8,14 @@ Perfboard top view
 View when soldering (flipped from the top view)
 ![Soldering view](images/bottom_soldering.JPG)
 
+## Double-sided PCBs
+
+A board with components on the underside needs a holder made for that board. The supplied `pcb_holder` does not include clearance for underside components.
+
+1. Stencil, populate and reflow the first side before placing it face down in the holder for the second side.
+2. Open [the Fusion design](cad/stencil_fix_portable.f3d) or [the STEP assembly](cad/stencil_fix_portable.step), and make a copy of `pcb_holder` for your board. Import the populated board model in its second-side printing orientation. Check component heights against the assembled board.
+3. Add pockets for underside components and solder joints, with clearance based on your printer and assembly tolerances. Keep support under bare PCB areas and around the board edge so squeegee pressure cannot bend the board or load components.
+
 ## Stencil size
 
 Use a **150 × 150 mm frameless stencil** with this setup. When ordering from JLCPCB, choose **Framework: No**. Under **Dimensions**, select **Custom Size** and set both **X** and **Y** to **150 mm**.
